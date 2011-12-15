@@ -25,7 +25,7 @@ _.extend(exports, {
 		//second, setup the background layer
 		//if the image want to be repeated, use 'true' in tile, if not the kindly use 'false'
 		//.setLayerBackground(existing-layer, { sprite: variable-that-have-been-defined-before, x: x-position, y: y-position, width: width-of-the-layer, height: width-of-the-layer, tile: boolean });
-		scene.setLayerBackground(layer.bg, { sprite:'bg', x:-16, y:-5, width: 500, height: 500, tile:true });
+		scene.setLayerBackground(layer.background, { sprite:'bg', x:-16, y:-5, width: 500, height: 500, tile:true });
 		
 		//third, adding configured layer to the SceneView
 		//.add({ sprite: variable-that-have-been-defined-before, x: x-pos, y: y-pos, layer: layer-number, frame: frame-number });
